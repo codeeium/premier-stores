@@ -3,7 +3,7 @@ import React from 'react';
 function Contact() {
     return (
         <div>
-            <h1>Contact Us</h1>
+            <h2>Contact Us</h2>
             <p>Get in touch with Premier Stores.</p>
             <img src="/images/Contactus.png" alt="Contact" className="page-image" />
         </div>

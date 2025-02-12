@@ -19,7 +19,7 @@ function Home() {
         '/images/styles/header_image/public/slide/image/NP13-24-banner-3-homepage.jpg',
         '/images/styles/header_image/public/slide/image/NP13-24-banner-5-mobile.jpg',
         '/images/styles/header_image/public/slide/image/img.png',
-        // Add more image paths as needed
+        // Add more image paths as neededaa
         '/images/styles/max_1300x1300/public/NP11-24-clementines.png',
         '/images/styles/max_1300x1300/public/NP13-24-dolly.png',
         '/images/styles/max_1300x1300/public/NP13-24-lenor.png',
@@ -103,16 +103,17 @@ function Home() {
 
     return (
         <div style={{ position: 'relative', overflow: 'hidden', width: '100%' }}>
-            <h1>Welcome to Premier Stores</h1>
+
+            <h2>Welcome to Premier Stores</h2>
             <p>Your favorite neighborhood store.</p>
 
-            <div style={{ display: 'flex', transition: 'transform 1s ease-out', transform: `translateX(-${currentImageIndex * 100}%)` }}>
+            <div style={{ display: 'flex', transition: 'transform 1s ease-out', transform: `translateX(-${currentImageIndex * 90}%)` }}>
                 {images.map((image, index) => (
                     <img
                         key={index}
                         src={image}
                         alt={`Slide ${index}`}
-                        style={{ width: '100%', height: 'auto' }}
+                        style={{ width: '90%', height: 'auto' }}
                     />
                 ))}
             </div>

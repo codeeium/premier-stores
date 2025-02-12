@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css'; // Import CSS file
 import premierLogo from '../header/premierLogo.png'; // Import logo
+// import proudToServe from '../header/proudToServe.png'; // Import logo
 
 function Header() {
     return (
@@ -12,6 +13,11 @@ function Header() {
                     alt="Premier Logo"
                     className="logo"
                 />
+                {/*<img*/}
+                {/*    src={proudToServe}*/}
+                {/*    alt="proudTo Serve"*/}
+                {/*    className="logo"*/}
+                {/*/>*/}
                 <nav>
                     <ul>
                         <li>
