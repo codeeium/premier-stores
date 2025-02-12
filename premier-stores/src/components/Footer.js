@@ -1,8 +1,9 @@
 import React from 'react';
+import './Footer.css'; // Import the CSS file
 
 function Footer() {
     return (
-        <footer>
+        <footer className="footer">
             <p>© 2025 Premier Stores</p>
         </footer>
     );
