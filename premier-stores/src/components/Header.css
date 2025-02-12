@@ -1,0 +1,47 @@
+.header {
+    background-color: purple;
+    color: white;
+    padding: 15px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Moves logo left and nav right */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header ul li {
+    display: inline;
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header ul li a:hover {
+    text-decoration: underline;
+}
